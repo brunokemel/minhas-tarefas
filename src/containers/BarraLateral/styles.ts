@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Aside = styled.aside`
-  pading: 16px;
+  padding: 16px;
   background-color: #eee;
   height: 100vh;
 `
@@ -13,7 +13,7 @@ export const Filtros = styled.div`
   margin-top: 16px;
 `
 export const Campo = styled.input`
-  pading: 8px;
+  padding: 8px;
   background-color: #fff;
   border-radius: 8px;
   font-weight: bold;

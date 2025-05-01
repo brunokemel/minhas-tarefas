@@ -8,12 +8,12 @@ const Barralateral = () => (
       <S.Campo type="text" placeholder="Buscar" />
     </div>
     <S.Filtros>
-      <FiltroCard />
-      <FiltroCard />
-      <FiltroCard />
-      <FiltroCard />
-      <FiltroCard />
-      <FiltroCard active />
+      <FiltroCard legenda="pendentes" contador={9} />
+      <FiltroCard legenda="consluídas" contador={3} />
+      <FiltroCard legenda="urgentes" contador={3} />
+      <FiltroCard legenda="importantes" contador={2} />
+      <FiltroCard legenda="normal" contador={6} />
+      <FiltroCard legenda="todas" contador={2} />
     </S.Filtros>
   </S.Aside>
 )
